@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "LifeAdmin",
+    "slug": "lifeadmin",
+    "scheme": "lifeadmin",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      ["expo-camera", {"cameraPermission": "LifeAdmin belgeleri taramak için kameraya erişir."}],
+      "expo-notifications"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lifeinvader.lifeadmin"
+    },
+    "android": {
+      "package": "com.lifeinvader.lifeadmin",
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0D12"
+      }
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
